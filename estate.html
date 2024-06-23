@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FemState Members</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="retro-container">
+        <h1 class="retro-title">FemState Members</h1>
+        <div class="member">
+            <span class="member-name" id="kyro-link">Future</span>
+            <span class="femboy-rank">Femskid</span>
+        </div>
+        <div class="member">
+            <span class="member-name">Vice</span>
+            <span class="owner-rank">Owner</span>
+        </div>
+        <div class="member">
+            <span class="member-name">Kapa</span>
+            <span class="council-rank">Council</span>
+        </div>
+        <div class="member">
+            <span class="member-name">Hix</span>
+            <span class="clique-rank">Clique</span>
+        </div>
+</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const kyroLink = document.getElementById('kyro-link');
+
+            kyroLink.addEventListener('mouseenter', () => {
+                window.location.href = 'kyro-page.html';
+            });
+        });
+    </script>
+</body>
+</html>

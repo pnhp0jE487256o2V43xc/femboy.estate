@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyro's Page</title>
+    <link rel="stylesheet" href="vio-styles.css">
+</head>
+<body>
+    <div class="vio-container">
+        <h1 class="vio-title">Welcome to Kyro's Page</h1>
+        <div class="gallery" id="imageGallery">
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const galleryContainer = document.getElementById('imageGallery');
+            const imageFilenames = [
+                'image1.jpg',
+                'image2.jpg',
+                'image3.jpg',
+                'image4.jpg'
+            ];
+            imageFilenames.forEach(filename => {
+                const imgElement = document.createElement('img');
+                imgElement.src = `./images/${filename}`;
+                imgElement.alt = filename;
+                imgElement.classList.add('gallery-image');
+                galleryContainer.appendChild(imgElement);
+            });
+        });
+    </script>
+</body>
+</html>

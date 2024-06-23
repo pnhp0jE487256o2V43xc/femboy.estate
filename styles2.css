@@ -1,0 +1,62 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.retro-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.retro-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.member {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.member-name {
+    font-size: 24px;
+}
+
+.member-rank {
+    font-size: 24px;
+    color: rgb(54, 20, 206);
+    text-transform: uppercase;
+}
+
+
+.owner-rank {
+    font-size: 24px;
+    color: rgb(252, 2, 2);
+    text-transform: uppercase;
+}
+
+.femboy-rank {
+    font-size: 24px;
+    color: rgb(255, 0, 191);
+    text-transform: uppercase;
+}
+
+.clique-rank {
+    font-size: 24px;
+    color: #002E6D;
+    text-transform: uppercase;
+}
+
+.council-rank {
+    font-size: 24px;
+    color: #5BC0DE;
+    text-transform: uppercase;
+}
